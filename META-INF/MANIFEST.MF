@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Bugreport_nebula
+Bundle-SymbolicName: org.plugin.bugreport_nebula;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: org.plugin.bugreport.nebula
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.eclipse.nebula.widgets.tablecombo;bundle-version="1.2.0"
+Import-Package: javax.inject
